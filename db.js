@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { use } = require("react");
 require("dotenv").config();
 mongoose.connect(process.env.MONGODB_URI)
 console.log("connected to db")
